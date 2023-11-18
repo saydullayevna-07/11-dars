@@ -1,0 +1,319 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+header nav{
+    background-color: #428E5F;
+}
+header{
+    margin: 0 auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    background-color:428E5F ;
+
+
+}
+
+.appbar{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.nav-list ul li{
+    padding: 0px 30px;
+
+}
+
+.nav-btn button{
+    padding: 0px 10px;
+    border: none;
+    width: 128px;
+    height: 49px;
+    background-color:#035221 ;
+    color: white;
+    font-size: 15px;
+}
+
+.nav-btn button:hover{
+    background-color: #441202;
+    border-radius: 60px;
+
+}
+
+
+
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #428E5F;
+    width: 100%;
+    
+}
+
+.header-left{
+    margin-left: 70px ;
+}
+
+.header-left p{
+    border: solid 0.5px #FFFFFF40;
+    border-radius: 15px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0px    ;
+}
+
+.header-left h1{
+    font-size: 55px;
+    width: 550px;
+    margin: 20px 0px;
+}
+
+.header-right img{
+    width: 90%;
+
+}
+
+.header-left h5{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.header-left button{
+    width: 263px;
+    height: 91px;
+    border: none;
+    background-color: #679278;
+    border-radius: 27px;
+    font-size: 25px;
+}
+
+
+
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0px;
+    gap: 40px;
+}
+
+.page2-left p{
+font-size: 30px;
+font-weight: 600;
+padding: 10px 0px;
+}
+
+.page2-left h1{
+    font-size: 55px;
+    font-weight: 600;
+
+}
+
+.page2-left h5{
+    font-size: 25px;
+    width: 456px;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.page2-left button{
+    width: 223px;
+    height: 79px;
+    border: none;
+    border-radius: 27px;
+    background-color: #679278;
+    font-size: 20px;
+}
+
+
+
+.page2-right img{
+    margin: 0px 20px;
+}
+
+
+.page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 200px;
+}
+
+.page3-right h1{
+font-size: 45px;
+width: 565px;
+margin: 20px 0px;
+}
+
+.page3-right p{
+    font-size: 33px;
+    color: #0F1F1C;
+    margin-bottom: 20px;
+}
+
+.page3-right h3{
+    font-size: 25px;
+    line-height: 37.5px;
+    font-weight: 400;
+    color: #0F1F1C;
+
+}
+
+.page3-right h4{
+    font-size: 22px;
+    width: 491px;
+    margin: 20px 0px;
+    line-height: 33px;
+}
+
+.page4{
+    background-color: #F6F6F6;
+    width: 1240px;
+    height: 181px;
+    border: none;
+    border-radius: 60px;
+    margin: 160px auto ;
+    text-align: center;
+    padding: 200px 0px;
+   
+}
+
+.page4 h1{
+width: 519px;
+font-size: 45px;
+margin: 0 auto;
+padding: 20px 0px;
+}
+
+.page4 p{
+    color: #0F1F1C;
+    font-size: 30px;
+    padding-bottom:20px ;
+}
+
+.page4 button{
+    width: 225px;
+    height: 79px;
+    background-color: #b39875;
+    color:rgb(255, 255, 255);
+    border: none;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
+.page5 h1{
+width: 494px;
+height: 166px;
+font-size: 55px;
+font-weight: 600;
+margin: 0 auto;
+padding: 20px 0px;
+}
+
+.page5-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 0 auto;
+    padding: 10px 70px;
+    border: solid 0.1px;
+    width: 600px;
+    height: 89px;
+    border: none;
+    background: hsl(207, 46%, 74%);
+    border-radius: 35px;
+    
+}
+
+.page5-link a{
+    color: #0F1F1C;
+    font-size: 24px;
+}
+
+.page5-link button{
+    width: 200px;
+    height: 85px;
+    border: none;
+    border-radius: 35px;  
+    font-size: 25px;
+    color: #0F1F1C; 
+
+}
+
+
+
+.footer-logo {
+color: #FF7B4E;
+font-size: 20px;
+font-weight: 700;
+}
+
+.footer-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.footer-list ul{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+/* Искандар Iskandar i Tech 2, [11/18/2023 4:17 PM] */
+.footer-btn button{
+    /* padding: 0px 10px; */
+    border: none;
+    width: 128px;
+    height: 49px;
+    background-color:#FF7B4E ;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 35px;
+}
+
+.footer-list ul li:hover{
+    color: blue;
+    font-weight: 600;
+}
+nav{
+    position: fixed;
+}
